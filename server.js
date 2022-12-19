@@ -36,7 +36,7 @@ server.addService(dogProto.DogService.service, {
 // Start the Server
 server.bindAsync(
   // Port to serve on
-  "127.0.0.1:3500",
+  "0.0.0.0:3000",
   // authentication settings
   grpc.ServerCredentials.createInsecure(),
   //server start callback
