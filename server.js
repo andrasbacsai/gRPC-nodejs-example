@@ -38,7 +38,7 @@ server.bindAsync(
   // Port to serve on
   "0.0.0.0:3000",
   // authentication settings
-  grpc.ServerCredentials.createSecure(),
+//   grpc.ServerCredentials.createInSecure(),
   //server start callback
   (error, port) => {
     console.log(`listening on port ${port}`);
